@@ -260,17 +260,200 @@ section#skills > div > ul {
   list-style-type: none;
 }
 section#skills > div > ul > li {
-  background-color: #faf0f0;
-  padding: 4px;
-  border-radius: 2px;
-  width: 100px;
+  background-color: #ffffff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
   text-align: center;
-  color: #0c090a;
-  box-shadow: 2px 2px 0px 0px rgb(179, 112, 112);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px #DEF4FC;
+  font-size: 12px;
+}
+
+#html5{
+  width: 60px;
+  position: relative;
+
+}
+#html5 .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 10%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#css3{
+  width: 60px;
+  position: relative;
+  
+}
+#css3 .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#js{
+  width: 60px;
+  position: relative;
+  
+}
+#js .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#java{
+  width: 60px;
+  position: relative;
+}
+#java .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#react-native{
+  width: 60px;
+  position: relative;
+}
+#react-native .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  top: 40%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#react-native{
+  width: 60px;
+  position: relative;
+}
+#react-native .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#react-js{
+  width: 60px;
+  position: relative;
+}
+#react-js .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#spring-boot{
+  width: 60px;
+  position: relative;
+
+}
+#spring-boot .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#svelte{
+  width: 60px;
+  position: relative;
+}
+#svelte .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#figma{
+  width: 60px;
+  position: relative;
+}
+#figma .pren{
+  background-color: #DEF4FC;
+  color: rgb(111, 107, 107);
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 section#skills > div > ul > li:hover {
- background-color: #dfc1c1;
- color: #ffffff;
+ background-color: white;
  cursor: pointer;
 }
 section#contact {
