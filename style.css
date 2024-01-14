@@ -98,7 +98,7 @@ span#said {
 section#banner {
  /* background: url("images/start.jpg") center no-repeat;*/
   background-size: cover;
-  height: 800px;
+  height: 600px;
   width: 100%;
   position: relative;
 }
@@ -184,11 +184,12 @@ div.list > div:hover {
 div.list > div > p {
   max-width: 250px;
 }
-section#experiences h1 {
+section#experiences > h1 {
   margin-bottom: 40px;
   font-size: 2rem;
   color: #0c090a;
   font-family: Dayrom;
+  margin-left: 100px;
 }
 section#experiences  img{
   width: 200px;
@@ -214,8 +215,8 @@ section#contact > h1::before{
   background-color: rgb(238, 243, 254);
   content: "";
   position: absolute;
-  top: 40px;
-  margin-left: 2px;
+  top: 110px;
+  margin-left: 3px;
 }
 section#experiences > h1::before{
   width: 170px;
@@ -275,11 +276,9 @@ section#skills > div > ul > li:hover {
 section#contact {
  /* background-color: rgb(253, 250, 250);*/
   position: relative;
-  margin: 100px 50px;
-  background-image: url("./images/start.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+  margin: auto;
+  width: 500px;
+  padding: 60px 0px;
 }
 section#contact > h1 {
   font-size: 2rem;
