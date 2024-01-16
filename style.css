@@ -179,10 +179,10 @@ div.list > div {
   box-shadow: 2px 2px 0px 0px rgb(215, 208, 208);
 }
 div.list > div:hover {
-  background-color: #faf0f0;
+  background-color: #becbfe;
   border-radius: 10px;
   padding: 1rem 1rem;
-  box-shadow: 2px 2px 0px 0px rgb(240, 228, 228);
+  box-shadow: 2px 2px 0px 0px rgb(228, 231, 240);
   transform: translate(2px, 4px);
   cursor: pointer;
 }
