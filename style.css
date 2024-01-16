@@ -23,6 +23,7 @@
 body {
 /*  font-family: "Trebuchet MS", Arial, sans-serif;*/
   color: #0c090a;
+  margin: 0;
 }
 .portfolio{
   width: fit-content;
@@ -47,9 +48,9 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 40px;
   z-index: 99;
-  background-color: rgb(238, 243, 254);
+  background-color: rgb(193, 219, 255);
   margin: auto;
 }
 header > nav > ul {
@@ -76,7 +77,7 @@ header > nav > ul > li > a {
   height: 1.28rem;
   color: #0c090a;
   text-decoration: none;
- /* font-family: Dayrom;*/
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 1.08rem;
 }
@@ -102,6 +103,7 @@ section#banner {
   width: 100%;
   position: relative;
 }
+
 section#banner > h1 {
   text-align: center;
   font-size: 2rem;
@@ -109,10 +111,14 @@ section#banner > h1 {
   font-weight: bold;
   font-style: normal;
   line-height: 60px;
-  color: #e7bfbf;
+  color: #c2e1e8;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 40%;
 }
 section#about{
-  margin-bottom: 60px;
+ margin-top: 200px;
 }
 section#about > ul {
   list-style-type: none;
@@ -133,7 +139,7 @@ section#about {
   padding: 20px 100px;
   border: 4px rgb(238, 243, 254) solid;
   position: relative;
-  margin: 0px 50px;
+  margin: 10px 50px;
 }
 section#about > h1 {
   text-align: center;
@@ -167,7 +173,7 @@ div.list > div > img {
   margin: 1rem 0;
 }
 div.list > div {
-  background-color: #faf0f0;
+  background-color: #f9faff;
   border-radius: 10px;
   padding: 1rem 1rem;
   box-shadow: 2px 2px 0px 0px rgb(215, 208, 208);
@@ -180,16 +186,21 @@ div.list > div:hover {
   transform: translate(2px, 4px);
   cursor: pointer;
 }
-
+div.list > div{
+  height: 500px;
+}
 div.list > div > p {
   max-width: 250px;
+  line-height: normal;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+  white-space: wrap;
 }
 section#experiences > h1 {
   margin-bottom: 40px;
   font-size: 2rem;
   color: #0c090a;
   font-family: Dayrom;
-  margin-left: 100px;
 }
 section#experiences  img{
   width: 200px;
